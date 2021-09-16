@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+
+* {
+    /* background-color: rgba(204, 109, 199, 0.358); */
+    box-sizing: border-box;
+    /* padding: 5px; */
+    text-align: center;
+    align-items: center;
+}
+/* this is how to target all of your html code and changes the background color */
+/* box-sizing: border-box resets the border to the whole html as most borders have their own settings */
+/* padding: one value (number) represents padding on all sides, two represents top and bottom, three represents top, right and left, then bottom. Four values represent top, right, bottom, left */
+#navbar{
+    background-color: rgb(219, 153, 219);
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+#navbar a {
+    color: rgb(83, 21, 141);
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    padding-left: 120px;
+}
+
+.hyperlink{
+    color: rgb(83, 21, 141);
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px; 
+}
+.hyperlink a {
+    color: rgb(83, 21, 141);
+    text-decoration: none;
+}
+.hyperlink a:hover {
+    color: white;
+}
+
+#navbar a:hover {
+    color: white;
+}
+
+body{
+    margin: 0px;
+    background-image: url("rep2.jpg");
+}
+/* removes the margin which can appear in certain browsers and also adds a background image */
+h1 {
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    /* font-style: italic; */
+    color: rgb(83, 21, 141);
+}
+
+h2 { 
+    background-color: rgb(219, 153, 219);
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    /* font-style: italic; */
+    margin-left: 200px;
+    margin-right: 200px;
+    color: rgb(83, 21, 141);
+}
+/* this is how to target and element within our HTML and change the colour and size of it */
+
+/* .welcome {
+    background-color: rgb(255, 0, 170);
+} */
+/* this is how to target a class */
+
+.large{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    /* font-style: italic; */
+    font-weight: 1400;
+}
+.half {
+    width: 50%;
+}
+
+.double{
+    width: 15%;
+}
+#whitetext {
+    color: white;
+}
+/* this is how to target the id (id is only used once!)*/
+
+#mainbg {
+    width: 50%;
+}
+#bg1 {
+    width: 50%;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    /* font-style: italic; */
+    font-weight: 1400;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: rgb(83, 21, 141);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* a:link {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 1400;
+} */
